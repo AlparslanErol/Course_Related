@@ -1,0 +1,11 @@
+Eigenvalue1 is: 20.49	
+
+Eigenvector#1 is: 
+
+0.35
+0.62
+0.55
+1.00
+
+Eigenvalue2 is: 3.91	
+

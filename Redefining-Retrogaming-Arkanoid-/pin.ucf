@@ -1,0 +1,15 @@
+net BTNL loc=C4; # BTNL (Push-Button Switch) 
+net BTNR loc=D9; # BTNU (Push-Button Switch) 
+net clk_sys loc=V10; # 100 MHz board clock 
+net reset loc=B8;
+net vsynch loc=P7; # VGA-VSYNC
+net hsynch loc=N6; # VGA-HSYNC
+net red loc=U7; # VGA-RED0
+net red loc=V7; # VGA-RED1
+net red loc=N7; # VGA-RED2
+net green loc=P8; # VGA-GRN0
+net green loc=T6; # VGA-GRN1
+net green loc=V6; # VGA-GRN2
+net blue loc=R7; # VGA-BLU1
+net blue loc=T7; # VGA-BLU2
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
